@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Tomar F2 Contest-2</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="upper-div">
+        <span class="heading">Library Management System</span>
+        <div class="book-name-div">
+            <span class="book-name-span">Book Name</span>
+            <input type="text" id="book-name">
+        </div>
+        <div class="issue-div">
+            <span class="issue-span">Issued To</span>
+            <input type="text" id="issued-to">
+        </div>
+        <div class="button-div">
+            <button id="issue-btn" onclick="addData()">Issue Book</button>
+        </div>
+
+    </div>
+    <div class="lower-div">
+        <table id="data-table">
+            <thead>
+              <tr style="border-bottom: 1px solid white">
+                <th>ID</th>
+                <th>Book Name</th>
+                <th>Issued To</th>
+                <th>Issue Date and Time</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            
+          </table>
+          
+
+    </div>
+
+    
+</body>
+<script src="./script.js"></script>
+</html>

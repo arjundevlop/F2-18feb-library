@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.upper-div{
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 40px;
+    
+}
+.book-name-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.issue-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.book-name-span{
+    color: white;
+    font-size: 24px;
+}
+.issue-span{
+    font-size: 24px; 
+}
+input{
+    border: 1px solid white;
+    background-color: black;
+    height: 24px;
+
+}
+input[type="text"]{
+    color: white;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+#issue-btn{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.lower-div{
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.lower-div table{
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: 20px;
+    empty-cells: show;
+}
+.lower-div table th{
+    border-right: 1px solid white;
+    width: auto;
+    padding: 10px;
+}
+.lower-div table td{
+    border-right: 1px solid white;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
